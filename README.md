@@ -5,6 +5,8 @@ It uses a [OpenRouter](https://openrouter.ai/) API calls for LLM usage.
 
 It's called srAgent (**s**elf **r**ecursive) because I thought it would be a cool idea to have the agent iteratively self improve the same system that it runs on.
 
+![Image of app usage in command prompt](https://lucasalvo.com/images/21Mar2026/srAgent-example.png)
+
 ## Installation for Windows
 1. Make a directory anywhere on your computer, and add 'agent.md' and 'srAgent.py' to it.
 2. Open srAgent.py, and add your OpenRouter API key to it
