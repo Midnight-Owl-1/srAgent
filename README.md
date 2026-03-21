@@ -11,7 +11,7 @@ It's called srAgent (**s**elf **r**ecursive) because I thought it would be a coo
 1. Make a directory anywhere on your computer, and add 'agent.md' and 'srAgent.py' to it.
 2. Open srAgent.py, and add your OpenRouter API key to it
 - To make a new one, log into your OpenRouter account -> navigate to [here](https://openrouter.ai/workspaces/default/keys) -> Create -> Give it a name, and a credit limit (try 25 cents to start), no expiration -> copy key
-3. You can also change the model here if you want to
+3. You can also change the model here if you want to (try out some different ones!)
 4. Create a 'srAgent.bat' file with the following content
 ```shell
 @echo off
