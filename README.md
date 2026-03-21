@@ -1,4 +1,5 @@
 This simple LLM-powered agent system, inspired by [here](https://ghuntley.com/agent/), is a general-purpose tool-using (or coding) agent that can be invoked from any directory on your computer.
+
 While it can be useful, It's primary purpose is for learning and understanding how tools like Claude Code CLI work.
 
 It uses a [OpenRouter](https://openrouter.ai/) API calls for LLM usage.
