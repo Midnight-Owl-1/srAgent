@@ -6,7 +6,7 @@ Although the primary purpose is for learning and understanding how tools like Cl
 It's called srAgent (**s**elf **r**ecursive) because I thought it would be a cool idea to have the agent iteratively self improve the same system that it runs on.
 
 ## Installation for Windows
-1. Make a directory anywhere on your computer, and add 'agent.md' and 'srAgent.py' to it (they're found in 'src')
+1. Make a directory anywhere on your computer, and add 'agent.md' and 'srAgent.py' to it.
 2. Create a 'srAgent.bat' file with the following content
 ```shell
 @echo off
