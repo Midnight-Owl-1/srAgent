@@ -7,7 +7,7 @@ import subprocess
 import sys
 
 # Your configuration
-API_KEY = "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"
+API_KEY = "{INSERT_API_KEY_HERE - STARTS WITH sk-or-v1...}"
 MODEL = "google/gemini-3-flash-preview"
 MAX_ITERATIONS = 5
 

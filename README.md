@@ -3,16 +3,21 @@ This is a very simple LLM powered agent system that uses tools to complete a tas
 It's a general purpose tool-using (or Coding) agent that you can invoke from any directory on your computer.
 Although the primary purpose is for learning and understanding how tools like Claude Code CLI work.
 
+It uses a [OpenRouter](https://openrouter.ai/) API calls for LLM usage.
+
 It's called srAgent (**s**elf **r**ecursive) because I thought it would be a cool idea to have the agent iteratively self improve the same system that it runs on.
 
 ## Installation for Windows
 1. Make a directory anywhere on your computer, and add 'agent.md' and 'srAgent.py' to it.
-2. Create a 'srAgent.bat' file with the following content
+2. Open srAgent.py, and add your OpenRouter API key to it
+- To make a new one, log into your OpenRouter account -> navigate to [here](https://openrouter.ai/workspaces/default/keys) -> Create -> Give it a name, and a credit limit (try 25 cents to start), no expiration -> copy key
+3. You can also change the model here if you want to
+4. Create a 'srAgent.bat' file with the following content
 ```shell
 @echo off
 python "{PATH_TO_YOUR_FILE}\srAgent.py" %*
 ```
-3. Add the srAgent.bat to your PATH (Windows button -> search 'Edit the System Environmental Variables'-> 'Environment Variables' -> double click 'Path' -> Add an entry including the same {PATH_TO_YOUR_FILE} -> OK)
+5. Add the srAgent.bat to your PATH (Windows button -> search 'Edit the System Environmental Variables'-> 'Environment Variables' -> double click 'Path' -> Add an entry including the same {PATH_TO_YOUR_FILE} -> OK)
 
 Once this is done, its ready to use!
 
