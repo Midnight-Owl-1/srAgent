@@ -1,6 +1,9 @@
 This is a very simple LLM powered agent system that uses tools to complete a task. Inspiration was from [here](https://ghuntley.com/agent/)
 
-I thought it would be a cool idea to make this, and then have the agent iteratively self improve itself.
+It's a general purpose tool-using (or Coding) agent that you can invoke from any directory on your computer.
+Although the primary purpose is for learning and understanding how tools like Claude Code CLI work.
+
+It's called srAgent (**s**elf **r**ecursive) because I thought it would be a cool idea to have the agent iteratively self improve the same system that it runs on.
 
 ## Installation for Windows
 1. Make a directory anywhere on your computer, and add 'agent.md' and 'srAgent.py' to it (they're found in 'src')
@@ -15,7 +18,7 @@ Once this is done, its ready to use!
 
 ## Usage
 
-* Type `srAgent` into cmd from *any* working directory, then explain to the agent what you want it to do
+* Type `srAgent` into command prompt from *any* working directory, then explain to the agent what you want it to do
 * You will be prompted for permission for each tool use
 
 ## Tools that the Agent can use:
@@ -32,6 +35,3 @@ This kind of system is inherently dangerous - The agent can (if it wants to) do 
 Having the permission prompts for each tool use is a safeguard for anything dangerous.
 In general though, models have good behaviour. Unless it ingests a prompt injection, it should be fine to run on your system.
 
-## Self Improvements
-
-* The very first self-improvement was made by "google/gemini-3-flash-preview" on 27Feb2026 where it found that having multiple tool call actions didn't have the tool\_results appended all together and passed back to the agent - it made a simple change to srAgent.py (in agent\_loop) to accumulate them, and then pass them all back
