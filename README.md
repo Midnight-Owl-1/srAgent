@@ -1,4 +1,4 @@
-This simple LLM-powered agent system, inspired by [here](https://ghuntley.com/agent/), is a general-purpose tool-using (or coding) agent that can be invoked from any directory on your computer.
+This simple LLM-powered agent system, inspired by [this](https://ghuntley.com/agent/) article by Geoffrey Huntley, is a general-purpose tool-using (or coding) agent that can be invoked from any directory on your computer.
 
 While it can be useful, It's primary purpose is for learning and understanding how tools like Claude Code CLI work. See blog post [here](https://lucasalvo.com/post/building-a-simple-coding-agent-on-a-raspberry-pi-zero) for the motivation behind this project.
 
